@@ -4,7 +4,7 @@
   "description": "Dashboard for IoT Projects",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/mqtt_server.js",
     "dev": "nodemon server/mqtt_server.js"
   },
   "author": "Simonpietro Carioti",

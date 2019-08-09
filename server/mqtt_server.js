@@ -44,7 +44,7 @@ moscaServer.on('clientConnected', function(client){
 moscaServer.on('published', function(packet, client){
     
     const topicTime = packet.topic + '/time'
-    console.log( packet.topic)
+    //console.log( packet.topic)
  
 })
 
