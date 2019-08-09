@@ -1,0 +1,22 @@
+{
+  "name": "iot-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for IoT Projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/mqtt_server.js"
+  },
+  "author": "Simonpietro Carioti",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mosca": "^2.8.3",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
